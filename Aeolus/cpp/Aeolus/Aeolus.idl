@@ -1,0 +1,10 @@
+// Aeolus.idl : type library source for Aeolus.dll
+// This file will be processed by the MIDL compiler to produce the
+// type library (Aeolus.tlb).
+
+[ uuid(DA075A34-D06B-41C5-9EF1-7BE0792B949E), version(1.0) ]
+library Aeolus
+{
+	importlib("stdole32.tlb");
+	importlib("stdole2.tlb");
+};
